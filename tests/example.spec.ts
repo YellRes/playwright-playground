@@ -34,7 +34,7 @@ test("get Mate60", async ({ page }) => {
   await page.waitForTimeout(dayjs(TIME_TO_BUY).diff(dayjs(), "second") * 1000);
 
   await page
-    .locator("#product-operation")
+    // .locator("#product-operation")
     .getByRole("link", { name: "立即下单" })
     .click();
 
