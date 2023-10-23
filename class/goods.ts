@@ -1,8 +1,9 @@
+
 class Goods {
   linkUrl: string;
-  buyTime: number;
+  buyTime: string;
 
-  constructor(linkUrl: string, buyTime: number) {
+  constructor(linkUrl: string, buyTime: string) {
     this.linkUrl = linkUrl;
     this.buyTime = buyTime;
   }

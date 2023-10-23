@@ -15,4 +15,12 @@ export const BUY_IN_EVENING = dayjs()
   .format("YYYY-MM-DD HH:mm:ss");
 
 // 商城公共url
-const HUAWEI_MALL_URL = "https://www.vmall.com/product/";
+export const HUAWEI_MALL_URL = "https://www.vmall.com/product/";
+
+export const MATE_60_FLAG = '10086970184614.html'
+
+export const MATE_60_PRO_FLAG = '10086285061721.html'
+
+export const MATE_PAD_FLAG = '10086429395667.html'
+
+export const MATE_HR_FLAG = '10086692389605.html'
