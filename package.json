@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test --headed"
+    "test": "npx playwright test --headed",
+    "matepad": "npx playwright test exampleHs.spec.ts  --headed",
+    "mate60": "npx playwright test example.spec.ts --headed"
   },
   "repository": {
     "type": "git",
